@@ -27,8 +27,8 @@ where domicilio like '%Suipacha%'
 
 -- 5. Listar nombre de todos los proveedores y de su ciudad.
 
-select prov.nombre, ciu.nombre
-from 
+select prov.nombre, ciu.nombre as "Ciudad"
+from proveedor prov left join ciudad ciu on prov.cod_ciu =  ciu.cod_ciu;
 
 
 

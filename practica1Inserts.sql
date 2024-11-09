@@ -40,3 +40,10 @@ INSERT INTO Proveedor (cod_prov, nombre, domicilio, cod_ciu, fecha_alta) VALUES 
 INSERT INTO Proveedor (cod_prov, nombre, domicilio, cod_ciu, fecha_alta) VALUES (3, 'Proveedor C', 'Suipacha 789', 103, '2001-09-10');
 INSERT INTO Proveedor (cod_prov, nombre, domicilio, cod_ciu, fecha_alta) VALUES (4, 'Proveedor D', 'Calle Florida 321', 104, '2000-12-05');
 INSERT INTO Proveedor (cod_prov, nombre, domicilio, cod_ciu, fecha_alta) VALUES (5, 'Proveedor E', 'Suipacha 456', 105, '2001-02-25');
+
+-- Inserciones tabla Ciudad
+INSERT INTO Ciudad (cod_ciu, nombre) VALUES (101, 'Buenos Aires');
+INSERT INTO Ciudad (cod_ciu, nombre) VALUES (102, 'Córdoba');
+INSERT INTO Ciudad (cod_ciu, nombre) VALUES (103, 'Rosario');
+INSERT INTO Ciudad (cod_ciu, nombre) VALUES (104, 'Mendoza');
+INSERT INTO Ciudad (cod_ciu, nombre) VALUES (105, 'La Plata');
